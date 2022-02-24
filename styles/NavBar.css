@@ -1,0 +1,23 @@
+nav{
+     color: var(--white);
+     font-family: 'Rubik', sans-serif;
+     position: sticky;
+     width: 100vw;
+     top: 0;
+     left: 0;
+}
+nav .logo{
+     display: flex;
+     align-items: center;
+}
+nav .logo img{
+     position: relative;
+     top: 20px;
+}
+
+nav .logo span{
+     font-weight: 500;
+     position: relative;
+     font-size: 50px;
+     font-family: 'Rubik', sans-serif;
+}

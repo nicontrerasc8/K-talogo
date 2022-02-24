@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Rubik:wght@900&display=swap');
+:root{
+  --black: #000000;
+  --white: #ffffff;
+  --blue: #318bda;
+  --platinum: #cecece;
+}
+html,
+body {
+  padding: 0;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  padding: 2rem 5vw;
+}
+.brand-name{
+  margin: 1rem 0;
+  font-size: clamp(30px, calc(3vmax + 1rem), calc(3vmax + 1rem));
+}
+.brand-description{
+  margin: 0 0 1rem 0;
+  font-size: clamp(20px, calc(1vmax + 10px), calc(1vmax + 10px));
+}
+.cart-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.cart-list article{
+  width: clamp(300px, calc(200px + 10vw), calc(200px + 10vw));
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+@media screen and (max-width: 400px){
+  .cart-list article{
+    width: 100%;
+  }
+}
+.cart-list article img{
+  position: relative;
+  border-radius: 5px;
+  width: 100%;
+  height: 300px;
+}
+.cart-list article h4{
+  margin: 10px 0;
+  padding: 0 10px;
+  font-size: clamp(2rem, calc(1vh + 2vw), calc(1vh + 2vw));
+}
+.cart-list article div{
+  display: flex;
+  flex-direction: column;
+  padding: 0 5% 1rem 5%;
+  text-align: left;
+  align-items: flex-start;
+}
+.cart-list article p{
+  font-size: clamp(calc(1rem + 10px), calc(1vh + 1vw + 10px), calc(1vh + 1vw + 10px));
+  margin: 0 0 10px 0;
+}
