@@ -31,7 +31,7 @@ const BrandContainer = ({Data}) => {
 
   return <>
      <MetaTags title={Data.BrandName}/>
-     <BrandNavBar/>
+     <BrandNavBar IG={Data.Instagram} FB={Data.Facebook}/>
      <div className='page'>
           <h2 className='brand-name'>{Data.BrandName}</h2>
           <h5 className='brand-description'>{Data.Descripcion}</h5>
@@ -46,7 +46,7 @@ const BrandContainer = ({Data}) => {
                                         <img src={info.img} />
                                         <h4>{info.name}</h4>
                                         <p>s/.{info.price}</p>
-                                        <a target={"_blank"} rel='noreferrer' href={`https://api.whatsapp.com/send?phone=51${Data.phone ? Data.phone : 949161510}&text=${`¡Hola! vengo de la web de SuMarket. Me gustaría ordenar ${info.name}.`}`}>
+                                        <a target={"_blank"} rel='noreferrer' href={`https://api.whatsapp.com/send?phone=51${Data.PhoneNumber ? Data.PhoneNumber : 949161510}&text=${`¡Hola! vengo de la web de SuMarket. Me gustaría ordenar ${info.name}.`}`}>
                                              <Button>
                                                   Comprar
                                              </Button>
