@@ -9,12 +9,16 @@ const BrandNavBar = ({IG, FB}) => {
   return <Nav>
           <Image height={80} width={80} src={Logo}/>
        <div>
-         <a target={"_blank"} rel='noreferrer' href={FB}>
-           <Image src={FBimg} height={80} width={80}/>
-         </a>
-         <a target={"_blank"} rel='noreferrer' href={IG}>
+         {
+           FB && <a target={"_blank"} rel='noreferrer' href={FB}>
+              <Image src={FBimg} height={80} width={80}/>
+            </a>
+         }
+         {
+           IG && <a target={"_blank"} rel='noreferrer' href={IG}>
            <Image src={IGimg} height={80} width={80}/>
          </a>
+         }
        </div>
   </Nav>
 }

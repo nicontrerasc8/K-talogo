@@ -23,6 +23,15 @@ a {
   box-sizing: border-box;
   font-family: 'Dosis', sans-serif;
 }
+.wa-button{
+  position: fixed;
+  z-index: 3;
+  bottom: calc(5vh);
+  right: calc(5vw);
+  background-color: #48b855;
+  border-radius: 50%;
+  padding: 10px;
+}
 .page{
   display: flex;
   flex-direction: column;

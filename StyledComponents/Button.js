@@ -10,7 +10,7 @@ export const Button = styled.button`
      transition: ease-out 500ms;
      position: relative;
      color: var(--white);
-     background-color: var(--blue);
+     background-color: ${props => props.Btncolor ? props.Btncolor : 'var(--blue)'};
      border-radius: 10px;
      z-index: 1;
      &:before{
@@ -26,7 +26,7 @@ export const Button = styled.button`
           transition: 0.3s ease;
         }
         &:hover{
-          color: var(--blue);
+          color: ${props => props.Btncolor ? props.Btncolor : 'var(--blue)'};
              &:before{
                   width: 100%
              }

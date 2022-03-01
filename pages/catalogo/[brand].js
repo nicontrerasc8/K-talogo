@@ -3,7 +3,8 @@ import React from 'react'
 import styled from 'styled-components'
 import MetaTags from '../../Components/MetaTags'
 import BrandNavBar from '../../Components/Navbars/BrandNavBar'
-import { Prueba } from '../../Lib/arrays'
+import WhatsAppButton from '../../Components/WhatsAppButton'
+import { Prueba, Prueba2 } from '../../Lib/arrays'
 import { firestore } from '../../Lib/firebase'
 import { Button } from '../../StyledComponents/Button'
 
@@ -22,9 +23,6 @@ const ItemsContainer = styled.section`
        margin: 1rem 0;
        text-align: center;
   }
-/*   article{
-       border: 4px solid ${props => props.ArticleBG ? props.ArticleBG : 'var(--platinum)'};
-  } */
 `
 
 const BrandContainer = ({Data}) => {
@@ -32,12 +30,13 @@ const BrandContainer = ({Data}) => {
   return <>
      <MetaTags title={Data.BrandName}/>
      <BrandNavBar IG={Data.Instagram} FB={Data.Facebook}/>
+     <WhatsAppButton phone={Data.PhoneNumber}/>
      <div className='page'>
           <h2 className='brand-name'>{Data.BrandName}</h2>
           <h5 className='brand-description'>{Data.Descripcion}</h5>
           {
                Data.Products && Data.Products.map((data,idx) => {
-                    return <ItemsContainer key={idx}>
+                    return <ItemsContainer SectionBorder={Data.Color} key={idx}>
                          <h3>{data.type}</h3>
                         <div className='cart-list'>
                         {
@@ -47,7 +46,7 @@ const BrandContainer = ({Data}) => {
                                         <h4>{info.name}</h4>
                                         <p>s/.{info.price}</p>
                                         <a target={"_blank"} rel='noreferrer' href={`https://api.whatsapp.com/send?phone=51${Data.PhoneNumber ? Data.PhoneNumber : 949161510}&text=${`¡Hola! vengo de la web de SuMarket. Me gustaría ordenar ${info.name}.`}`}>
-                                             <Button>
+                                             <Button Btncolor={Data.Color}>
                                                   Comprar
                                              </Button>
                                         </a>
@@ -68,6 +67,7 @@ export async function getServerSideProps({query}){
      var {brand} = query
      var Data = []
      if(brand == "laeskinadelyuka") Data = Prueba
+     if(brand == "licoreriacana") Data = Prueba2
 
      return {props: {Data}}
 }
