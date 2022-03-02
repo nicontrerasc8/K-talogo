@@ -12,17 +12,17 @@ export const Prueba = {
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645040701201.f2e2d1-0bdb-a64c-ee7-722bab4f00d?alt=media&token=26a1cf50-89b7-41a0-a8e1-0918f7253f34',
                          name: 'Chicos pelados 1kg',
-                         price: 59,
+                         price: 65,
                     },
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645040805619.30ad273-087d-87f4-efd6-62fbd012474a?alt=media&token=38e5fc05-d878-4962-b408-850ecfdfbcd8',
                          name: 'Medianos pelados 1kg',
-                         price: 65,
+                         price: 70,
                     },
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645040914945.5bbf067-cb1b-a63a-3611-065ac1811eda?alt=media&token=39a0fbed-758b-4740-890c-f6e41671692a',
                          name: 'Grandes pelados 1kg',
-                         price: 70,
+                         price: 79,
                     }
                ]
           },
@@ -32,17 +32,17 @@ export const Prueba = {
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645043894241.f1a6c28-e208-605-4833-640552ce5c?alt=media&token=5cae00ed-5dda-4202-aa27-771860067a13',
                          name: "Bolsa de valvas",
-                         price: 19,
+                         price: 20,
                     },
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645044271238.4564365-86ce-45db-02e2-ec037c7f7d33?alt=media&token=d1075f37-146c-4040-9c0c-adadb218028c',
                          name: "Tallo con coral",
-                         price: 59,
+                         price: 70,
                     },
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645044509934.cce03a8-f2b3-eb56-61df-603f234a1467?alt=media&token=4e963816-9b05-4206-8f37-95920afa469b',
                          name: "Extra grande coral",
-                         price: 80,
+                         price: 85,
                     },
                ]
           },
