@@ -44,6 +44,16 @@ export const Prueba = {
                          name: "Extra grande coral",
                          price: 85,
                     },
+                    {
+                         img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-02%20at%204.09.04%20PM.jpeg?alt=media&token=5e0b67f3-a2ea-4232-8051-201add0bc6d9',
+                         name: "Solo tallo grande",
+                         price: 79,
+                    },
+                    {
+                         img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-02%20at%204.09.04%20PM.jpeg?alt=media&token=5e0b67f3-a2ea-4232-8051-201add0bc6d9',
+                         name: "Solo tallo mediano",
+                         price: 70,
+                    },
                ]
           },
           {
