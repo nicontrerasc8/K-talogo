@@ -99,6 +99,7 @@ export const Prueba2 = {
      BrandID: 'licoreriascana',
      Descripcion: 'Piscos y vinos al mejor precio.',
      PhoneNumber: 949161510,
+     Instagram: "https://www.instagram.com/licoreriacana/",
      Color: "black",
      Products: [
           {
