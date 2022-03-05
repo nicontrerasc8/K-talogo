@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import MetaTags from '../../Components/MetaTags'
 import BrandNavBar from '../../Components/Navbars/BrandNavBar'
 import WhatsAppButton from '../../Components/WhatsAppButton'
-import { Prueba, Prueba2 } from '../../Lib/arrays'
+import { Prueba, Prueba2, Prueba3 } from '../../Lib/arrays'
 import { firestore } from '../../Lib/firebase'
 import { Button } from '../../StyledComponents/Button'
 
@@ -68,6 +68,7 @@ export async function getServerSideProps({query}){
      var Data = []
      if(brand == "laeskinadelyuka") Data = Prueba
      if(brand == "licoreriacana") Data = Prueba2
+     if(brand == "ilpastificio") Data = Prueba3
 
      return {props: {Data}}
 }

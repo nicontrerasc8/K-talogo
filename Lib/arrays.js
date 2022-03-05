@@ -98,7 +98,7 @@ export const Prueba2 = {
      BrandName: 'Licorerías Caná',
      BrandID: 'licoreriascana',
      Descripcion: 'Piscos y vinos al mejor precio.',
-     PhoneNumber: 949161510,
+     PhoneNumber: 920013564,
      Instagram: "https://www.instagram.com/licoreriacana/",
      Color: "black",
      Products: [
@@ -142,5 +142,47 @@ export const Prueba2 = {
                     },
                ]
           },
+     ]
+}
+
+export const Prueba3 = {
+     BrandName: "Il Pastificio",
+     BrandID: "ilpastificio",
+     Descripcion: "Bodega gourmet italiana",
+     PhoneNumber: "967772222",
+     Instagram: "https://www.instagram.com/ilpastificioclassico/",
+     Facebook: "https://web.facebook.com/IlPastificioClassico",
+     color: "red",
+     Products: [
+          {
+               type: "Lasagnas",
+               list: [
+                    {
+                         name: "Lasagna de carne 1kg",
+                         img: "https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2Friqra_ilpastificio_lasagna_de_carne_612x450.png?alt=media&token=28f9b02b-5cd9-41e5-8149-6ea92433d7fb",
+                         price: 53.3,
+                    }    
+               ]
+          },
+          {
+               type: "Ravioles",
+               list: [
+                    {
+                         name: "Ravioles de carne 500gr",
+                         price: 29.20,
+                         img: "https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2Fxjfgo0jycsdegbrgiemg.jpg?alt=media&token=cf962db7-8267-42a4-8fb5-c6b8a22ae5fb"
+                    },
+                    {
+                         name: "Ravioles de verduras 500gr",
+                         price: 27,
+                         img: "https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2Fj1n9wtugysmiwbwp5wzw.jpg?alt=media&token=e7bfd103-261c-4d7f-bc1e-678ab676d60d",
+                    },
+                    {
+                         name: "Ravioles de ricotta",
+                         price: 25.5,
+                         img: "https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2Ffzn4dyol5q04nlunce9w.jpg?alt=media&token=76f1720b-1dda-41fe-aa14-8dc148b1ae9d",
+                    }
+               ]
+          }
      ]
 }
