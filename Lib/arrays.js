@@ -65,7 +65,7 @@ export const Prueba = {
                          price: 21,
                     },
                     {
-                         img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645040701201.f2e2d1-0bdb-a64c-ee7-722bab4f00d?alt=media&token=26a1cf50-89b7-41a0-a8e1-0918f7253f34',
+                         img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645044688459.d0b87-36a6-e13d-561a-7b37481b45e?alt=media&token=a0246ae3-37df-487e-a817-1b69636902f0',
                          name: "Miel de maple",
                          price: 20,
                     },
