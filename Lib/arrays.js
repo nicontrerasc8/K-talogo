@@ -45,12 +45,12 @@ export const Prueba = {
                          price: 85,
                     },
                     {
-                         img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-02%20at%204.09.04%20PM.jpeg?alt=media&token=5e0b67f3-a2ea-4232-8051-201add0bc6d9',
+                         img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-26%20at%209.19.59%20AM%20(1).jpeg?alt=media&token=ac235534-534a-4f3e-af7a-6ccd73293acc',
                          name: "Solo tallo grande",
                          price: 79,
                     },
                     {
-                         img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-02%20at%204.09.04%20PM.jpeg?alt=media&token=5e0b67f3-a2ea-4232-8051-201add0bc6d9',
+                         img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-26%20at%209.19.59%20AM.jpeg?alt=media&token=c7b0ec03-c3a4-4e94-abfe-4bb8650fc59c',
                          name: "Solo tallo mediano",
                          price: 70,
                     },
