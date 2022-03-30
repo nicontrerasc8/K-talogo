@@ -62,17 +62,23 @@ export const Prueba = {
                     {
                          img: "https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/WhatsApp%20Image%202022-03-28%20at%203.28.07%20PM.jpeg?alt=media&token=3b7b8732-792c-4f4e-a8ac-73b022f447a8",
                          name: "Entraña fina angus americana",
-                         price: 203.5
+                         price: 203.5,
+                         data: 'Gramaje: 1kg',
+                         brand: 'Three guys',
                     },
                     {
                          img: "https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-28%20at%203.28.42%20PM.jpeg?alt=media&token=8bac6976-04cf-42f3-a150-36e143467026",
                          name: "Hamburguesa parrillera pack x 4 unidades",
-                         price: 32
+                         price: 32,
+                         data: 'Gramaje: 200gr',
+                         brand: 'Three guys',
                     },
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-28%20at%203.29.09%20PM.jpeg?alt=media&token=9a9d601e-c4ea-4a19-8454-643ecc56e378',
                          name: "Mini hamburguesa artesanal pack x 8 unidades",
-                         price: 37
+                         price: 37,
+                         data: 'Gramaje: 70gr',
+                         brand: 'Three guys',
                     }
                ],
           },
@@ -93,11 +99,15 @@ export const Prueba = {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-28%20at%203.30.17%20PM.jpeg?alt=media&token=48225c16-6d55-4e16-9676-b7d7d7dd60ad',
                          name: 'Chorizo de mermelada de pimentón pack x 4 unidades de 500gr',
                          price: 29,
+                         data: 'Gramaje: 500gr',
+                         brand: 'Three guys',
                     },
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-28%20at%203.31.25%20PM.jpeg?alt=media&token=4b197f48-179c-40ed-969a-74a55209bc24',
                          name: 'Mix de chorizos pack x 4 unidades de 500gr',
-                         price: 30
+                         price: 30,
+                         data: 'Gramaje: 500gr',
+                         brand: 'Three guys',
                     }
                ]
           },
