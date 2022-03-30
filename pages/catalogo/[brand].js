@@ -46,7 +46,7 @@ const BrandContainer = ({Data}) => {
                                         <h4>{info.name}</h4>
                                         <p>s/.{info.price}</p>
                                         {info.brand && <p>Marca: {info.brand}</p>}
-                                         {info.data && <p>{info.data}</p>
+                                         {info.data && <p>{info.data}</p>}
                                         <a target={"_blank"} rel='noreferrer' href={`https://api.whatsapp.com/send?phone=51${Data.PhoneNumber ? Data.PhoneNumber : 949161510}&text=${`¡Hola! vengo de su K-talogo. Me gustaría ordenar ${info.name}.`}`}>
                                              <Button Btncolor={Data.Color}>
                                                   Comprar
