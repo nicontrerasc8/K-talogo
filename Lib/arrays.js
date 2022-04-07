@@ -62,7 +62,7 @@ export const Prueba = {
                     {
                          img: "https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/WhatsApp%20Image%202022-03-28%20at%203.28.07%20PM.jpeg?alt=media&token=3b7b8732-792c-4f4e-a8ac-73b022f447a8",
                          name: "Entraña fina angus americana",
-                         price: 203.5,
+                         price: 195,
                          data: 'Gramaje: 1kg',
                          brand: 'Three guys',
                     },
@@ -88,12 +88,12 @@ export const Prueba = {
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645044595151.cf81c6-f7f-ab5e-46c-238460410020?alt=media&token=2119204f-01b1-4f8e-b3da-df0ea5b751c9',
                          name: "Parrillero 5 unidades",
-                         price: 21,
+                         price: 20.70,
                     },
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645044688459.d0b87-36a6-e13d-561a-7b37481b45e?alt=media&token=a0246ae3-37df-487e-a817-1b69636902f0',
                          name: "Miel de maple",
-                         price: 20,
+                         price: 19.6,
                     },
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-03-28%20at%203.30.17%20PM.jpeg?alt=media&token=48225c16-6d55-4e16-9676-b7d7d7dd60ad',
@@ -117,7 +117,7 @@ export const Prueba = {
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-02-17%20at%2012.31.34%20PM.jpeg?alt=media&token=aa2bc6d9-0c1d-47c3-934d-cb22feaf6b5e',
                          name: "Pisco Bellavista",
-                         price: 65,
+                         price: 70,
                     },
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2FWhatsApp%20Image%202022-02-17%20at%2012.03.46%20PM.jpeg?alt=media&token=aa3ed889-0f86-425a-bd48-a327b63bb26f',
@@ -127,7 +127,7 @@ export const Prueba = {
                     {
                          img: 'https://firebasestorage.googleapis.com/v0/b/racing-online-store.appspot.com/o/uploads%2F1645044852982.2356eb-adcf-cb3a-678b-a018ec3e6e1?alt=media&token=4b4c5b5b-f7fb-4367-b218-20d23c0a0cd8',
                          name: "Six pack Pilsen 305ml",
-                         price: 22
+                         price: 21.9
                     }
                ]
           },
